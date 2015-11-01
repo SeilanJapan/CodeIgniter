@@ -11,7 +11,7 @@
 	{
 		public function serve()
 		{
-			$this->load->view('zad1b');
+			$this->load->view('view');
 		}
 	}
 ?>
