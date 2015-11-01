@@ -5,33 +5,35 @@
 	който има следните методи:
 	в) метод, който отпечатва в таблица ТОП 3 на любимите ви ястия. 
 	За всяко ястие имате номер, наименование, снимка, основен продукт.
+	
+	Viwe
 */
 
 	echo "<table style='border:1px pink dashed'>";
   
   	echo "<tr>";
-    	echo "<td>№</td>";
-    	echo "<td>Name</td>";
-    	echo "<td>Picture</td>";
-    	echo "<td>Product</td>";
+	    	echo "<td>№</td>";
+	    	echo "<td>Name</td>";
+	    	echo "<td>Picture</td>";
+	    	echo "<td>Product</td>";
   	echo "</tr>";
   	
 	echo "<tr>";
-  	foreach ($first as $key=> $value) {
-  		echo "<td>$value</td>";
-  	}
+	  	foreach ($first as $key=> $value) {
+	  		echo "<td>$value</td>";
+	  	}
 	echo "</tr>";
 	
 	echo "<tr>";
-  	foreach ($second as $key=> $value) {
-  		echo "<td>$value</td>";
-  	}
+	  	foreach ($second as $key=> $value) {
+	  		echo "<td>$value</td>";
+	  	}
 	echo "</tr>";
 	
 	echo "<tr>";
-  	foreach ($third as $key=> $value) {
-  		echo "<td>$value</td>";
-  	}
+	  	foreach ($third as $key=> $value) {
+	  		echo "<td>$value</td>";
+	  	}
 	echo "</tr>";
 	
 	echo "</table>";
