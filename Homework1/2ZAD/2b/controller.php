@@ -7,7 +7,7 @@
   б) метод, който отпечатва чрез view същото нещо съдържание в подточка а).
 */
 	
-	class zad1b extends CI_Controller 
+	class Desert extends CI_Controller 
 	{
 		public function serve()
 		{
